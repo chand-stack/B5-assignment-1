@@ -44,6 +44,7 @@ const books = [
 function concatenateArrays<T>(...arrays: T[][]): T[]{
     let arr1:T[] = []
     
+    
 return arr1.concat(...arrays)
 }
 concatenateArrays(["a", "b"], ["c"]);       // Output: ["a", "b", "c"]
