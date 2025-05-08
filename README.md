@@ -55,4 +55,53 @@ In summary, TypeScript offers numerous benefits for developers, particularly whe
 While TypeScript code doesn't run directly in browsers, it compiles down to standard JavaScript, making it compatible with all browsers. By adopting TypeScript, developers can enhance both the quality and maintainability of their projects.
 
 
+# Difference Between any, unknown, and never Types in TypeScript
+
+In TypeScript, `any`, `unknown`, and `never` are type checking handlers like other primitive types. Each of these types serves a specific purpose in managing how values are handled at compile time.
+
+---
+
+## `any` Type
+
+If we want to declare a variable that can hold **any type of value** like a number, string, boolean, or even an object—we can use the `any` type. This tells TypeScript to **bypass type checking**, effectively opting out of TypeScript’s type safety.
+
+```ts
+let data: any;
+
+data = 5;
+data = "Hello";
+data = true;
+data = { name: "Chand" };
+```
+
+## `unknown` Type
+
+In TypeScript, `unknown` is a top type that is safer than any. Unlike any, you can't use a value of type `unknown` without first performing type checks. This enforces type safety and prevents accidental misuse.
+
+```ts
+let value: unknown = "Hello, TypeScript!";
+
+// Type checking is required before using the value
+if (typeof value === "string") {
+  console.log(value.toUpperCase()); // Safe to use after type narrowing
+} else {
+  console.log("Not a string!");
+}
+```
+
+## `never` Type
+
+In TypeScript, the `never` type represents a function that never returns a value. It’s commonly used for functions that throw exceptions or terminate the program. It indicates that a function will never return normally and is particularly useful for catching programming errors or marking unreachable code paths.
+
+```ts
+function throwError(message: string): never {
+  throw new Error(message); // This function never returns
+}
+
+function infiniteLoop(): never {
+  while (true) {} // Infinite loop, never ends
+}
+```
+
+
 
