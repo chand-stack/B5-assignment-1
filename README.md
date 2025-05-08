@@ -33,7 +33,7 @@ But does TypeScript run in the browser? The answer is **no**. TypeScript doesn't
 
 ## Code Example
 
-### Example 1: Type Safety in TypeScript
+### Type Safety in TypeScript
 
 ```ts
 // TypeScript Example
