@@ -47,4 +47,4 @@ In summary, TypeScript offers numerous benefits for developers, particularly whe
 While TypeScript code doesn't run directly in browsers, it compiles down to standard JavaScript, making it compatible with all browsers. By adopting TypeScript, developers can enhance both the quality and maintainability of their projects.
 ```
 
-![TypeScript Logo](https://cdn3d.iconscout.com/3d/free/thumb/free-typescript-3d-icon-download-in-png-blend-fbx-gltf-file-formats--microsoft-logo-angular-language-javascript-static-type-coding-lang-pack-logos-icons-7577992.png?f=webp)
+<img src="https://cdn3d.iconscout.com/3d/free/thumb/free-typescript-3d-icon-download-in-png-blend-fbx-gltf-file-formats--microsoft-logo-angular-language-javascript-static-type-coding-lang-pack-logos-icons-7577992.png?f=webp" width="200" height="200" />
