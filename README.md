@@ -43,8 +43,8 @@ function greet(name: string): string {
 
 console.log(greet("Chand")); //  Works
 console.log(greet());        //  Error: Expected 1 argument, but got 0.
-
-## 🤖 Conclusion
+```
+## Conclusion
 
 In summary, TypeScript offers numerous benefits for developers, particularly when working with large scale applications or in teams:
 
@@ -53,6 +53,6 @@ In summary, TypeScript offers numerous benefits for developers, particularly whe
 - **Maintainability** is better, with fewer bugs creeping into production.
 
 While TypeScript code doesn't run directly in browsers, it compiles down to standard JavaScript, making it compatible with all browsers. By adopting TypeScript, developers can enhance both the quality and maintainability of their projects.
-```
+
 
 
