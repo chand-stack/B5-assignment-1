@@ -4,7 +4,7 @@ TypeScript is a **superset of JavaScript**, meaning it builds on top of JavaScri
 
 In **JavaScript**, we simply write code and see the result in the browser. However, errors are often only caught at **runtime**, which can be risky especially for large or complex projects. That’s where **TypeScript becomes a blessing** for developers.
 
-div style="display: flex; justify-content: space-between; align-items: center;">
+<div style="display: flex; justify-content: space-between; align-items: center;">
     <div style="flex: 1;">
         <ul>
             <li>Variables</li>
