@@ -4,11 +4,16 @@ TypeScript is a **superset of JavaScript**, meaning it builds on top of JavaScri
 
 In **JavaScript**, we simply write code and see the result in the browser. However, errors are often only caught at **runtime**, which can be risky especially for large or complex projects. That’s where **TypeScript becomes a blessing** for developers.
 
-With TypeScript, we **explicitly define types** for: <img src="https://cdn3d.iconscout.com/3d/free/thumb/free-typescript-3d-icon-download-in-png-blend-fbx-gltf-file-formats--microsoft-logo-angular-language-javascript-static-type-coding-lang-pack-logos-icons-7577992.png?f=webp" width="200" height="200" />
-
-- Variables
-- Object properties
-- Function parameters and return types
+div style="display: flex; justify-content: space-between; align-items: center;">
+    <div style="flex: 1;">
+        <ul>
+            <li>Variables</li>
+            <li>Object properties</li>
+            <li>Function parameters and return types</li>
+        </ul>
+    </div>
+    <img src="https://cdn3d.iconscout.com/3d/free/thumb/free-typescript-3d-icon-download-in-png-blend-fbx-gltf-file-formats--microsoft-logo-angular-language-javascript-static-type-coding-lang-pack-logos-icons-7577992.png?f=webp" width="150" height="150" />
+</div>
 
 At first, this may feel like extra work, but it **catches errors early during development**, before the code is even run. This saves time and prevents bugs from reaching production.
 
