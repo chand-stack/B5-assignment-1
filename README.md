@@ -1,4 +1,4 @@
-# How Does TypeScript Help in Improving Code Quality and Project Maintainability?
+# 1 How Does TypeScript Help in Improving Code Quality and Project Maintainability?
 
 TypeScript is a **superset of JavaScript**, meaning it builds on top of JavaScript by adding powerful features most importantly, **static type checking**. But what's the actual difference between JavaScript and TypeScript?
 
@@ -55,7 +55,7 @@ In summary, TypeScript offers numerous benefits for developers, particularly whe
 While TypeScript code doesn't run directly in browsers, it compiles down to standard JavaScript, making it compatible with all browsers. By adopting TypeScript, developers can enhance both the quality and maintainability of their projects.
 
 
-# Difference Between any, unknown, and never Types in TypeScript
+# 2 Difference Between any, unknown, and never Types in TypeScript
 
 In TypeScript, `any`, `unknown`, and `never` are type checking handlers like other primitive types. Each of these types serves a specific purpose in managing how values are handled at compile time.
 
